@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap');
+
+
+html,
+body {
+   
+    background-color: #031B4C;
+}
+
+.call-to-action-container {
+    height: 100%;
+}
+
+
+.main-row {
+    height: 100%;
+}
+
+.poppins-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-heading {
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.sub-heading {
+    font-weight: 800;
+}
+
+.font-color-scheme {
+    color: #fafafa;
+}
+
+.sub-text {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+
+.input-class {
+    width: 50%;
+    padding: .365rem .30rem;
+    text-align: center;
+}
+
+.btn {
+    background-color: #972a2a;
+    color: #fafafa;
+    border-radius: 0px;
+    margin-bottom: 5px;
+}
+
+.background-fish {}
+
+.info-bg {
+    background-color: #fafafa;
+}
+
+.description-text {
+    color: #031B4C;
+}
+
+
+/* Keyframes */
+
+@keyframes nudge {
+    from {
+        background-position: -1000px 0px;
+    }
+
+    to {
+        background-position: 1000px 0px;
+    }
+}
+
+@-webkit-keyframes nudge {
+    from {
+        background-position: -1000px 0px;
+    }
+
+    to {
+        background-position: 1000px 0px;
+    }
+}
+
+@-moz-keyframes nudge {
+    from {
+        background-position: -1000px 0px;
+    }
+
+    to {
+        background-position: 1000px 0px;
+    }
+}
+
+@-o-keyframes nudge {
+    from {
+        background-position: -1000px 0px;
+    }
+
+    to {
+        background-position: 1000px 0px;
+    }
+}
+
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 991px) {
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    .input-class {
+        width: 50%;
+        text-align: center;
+        border-radius: 0px;
+    }
+
+    .btn {
+        width: 50%;
+        border-radius: 0px;
+    }
+
+    .background-fish {
+        background-image: url("../images/anglergreennoeyes.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation: nudge 20s linear infinite;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .input-class {
+        width: 80%;
+        text-align: center;
+        border-radius: 0px;
+    }
+
+    .btn {
+        width: 80%;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .main-heading {
+        font-size: 80px;
+        font-weight: 800;
+    }
+
+    .input-class {
+        width: 100%;
+        text-align: center;
+        border-radius: 0px;
+    }
+
+    .btn {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    @keyframes nudge {
+        from {
+            background-position: -730px 0px;
+        }
+
+        to {
+            background-position: 350px 0px;
+        }
+    }
+
+    @-webkit-keyframes nudge {
+        from {
+            background-position: -730px 0px;
+        }
+
+        to {
+            background-position: 350px 0px;
+        }
+    }
+
+    @-moz-keyframes nudge {
+        from {
+            background-position: -730px 0px;
+        }
+
+        to {
+            background-position: 350px 0px;
+        }
+    }
+
+    @-o-keyframes nudge {
+        from {
+            background-position: -730px 0px;
+        }
+
+        to {
+            background-position: 350px 0px;
+        }
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .main-heading {
+        font-size: 70px;
+        font-weight: 800;
+    }
+
+    @keyframes nudge {
+        from {
+            background-position: -700px 0px;
+        }
+
+        to {
+            background-position: 300px 0px;
+        }
+    }
+
+    @-webkit-keyframes nudge {
+        from {
+            background-position: -700px 0px;
+        }
+
+        to {
+            background-position: 300px 0px;
+        }
+    }
+
+    @-moz-keyframes nudge {
+        from {
+            background-position: -700px 0px;
+        }
+
+        to {
+            background-position: 300px 0px;
+        }
+    }
+
+    @-o-keyframes nudge {
+        from {
+            background-position: -700px 0px;
+        }
+
+        to {
+            background-position: 300px 0px;
+        }
+    }
+}
